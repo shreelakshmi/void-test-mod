@@ -10,7 +10,7 @@ import org.apache.jena.util.FileManager;
  * Hello world!
  *
  */
-public class CountTriples { //test
+public class CountTriples { //test..
 	public static void main(String[] args) throws Exception {
 
 		FileManager.get().addLocatorClassLoader(CountTriples.class.getClassLoader());

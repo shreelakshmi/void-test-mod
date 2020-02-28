@@ -19,7 +19,7 @@ public class App {
 
 	}
 
-	public static void fetchFileUrlFromDatabus() { //test
+	public static void fetchFileUrlFromDatabus() { 
 		String queryString = "PREFIX dataid: <http://dataid.dbpedia.org/ns/core#>\r\n" 
 							+"PREFIX dct: <http://purl.org/dc/terms/>\r\n" + "PREFIX dcat:  <http://www.w3.org/ns/dcat#>\r\n" 
 							+"select distinct ?file where {" 
